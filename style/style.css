@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 .inter-fonts {
     font-family: "Inter", sans-serif;
@@ -9,7 +10,7 @@
         "slnt" 0;
 }
 
-.bg{
+.bg {
     background-color: black;
 }
 
@@ -30,43 +31,97 @@
     margin-left: 190px;
 }
 
-.nav{
+.nav {
     border: .1px dashed rgb(34, 34, 34);
     border-radius: 40px;
-    width: 450px;
-    height: 45px;
+    width: 470px;
+    height: 55px;
     margin-right: 190px;
-    
-    
 
 }
 
-.nav-links{
+.nav-links {
     display: flex;
-    
     font-size: 1.12rem;
     padding: 0px;
-    
-   
-    
-    
 }
-.nav-item{
+
+.nav-item {
     list-style: none;
     margin-right: 47px;
-    
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    margin-left: 7px;
     
 }
 
-.nav-link{
-    text-decoration: none;
-    color: white;
-    
-    
-}
-.nav-home{
+.nav-home {
     font-weight: 600;
     background-color: rgba(230, 83, 60, 1);
     border-radius: 46px;
-    padding: 8px 20px;
+    padding: 12px 20px;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+}
+
+.banner-content {
+    margin: 96px 0 76px 190px;
+}
+
+.banner-headline {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+.miama-fonts {
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 8rem;
+
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 28px;
+}
+
+.btn-primary {
+    background-color: rgba(230, 83, 60, 1);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 46px;
+    font-size: 1.12rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    margin-top: 28px;
+}
+
+.btn-primary1 {
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 46px;
+    font-size: 1.12rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    margin-top: 28px;
+}
+
+.banner-img-1 {
+    margin: 32px 0 0 200px;
+    width: 350px;
+    height: 580px;
+
 }
