@@ -10,6 +10,31 @@
         "slnt" 0;
 }
 
+/* shared styles */
+
+.habit-img{
+    border-radius: 100%;
+}
+
+.habit-headline{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+    margin-right: 60px;
+    
+}
+
+.habit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: .8rem;
+    opacity: 50%;
+    text-align: center;
+    margin-right: 30px;
+}
+
+
 .bg {
     background-color: black;
 }
@@ -98,6 +123,7 @@
     margin-top: 28px;
 }
 
+
 .btn-primary {
     background-color: rgba(230, 83, 60, 1);
     border: 1px solid rgb(255, 255, 255);
@@ -107,6 +133,7 @@
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     margin-top: 28px;
+    margin-right: 20px;
 }
 
 .btn-primary1 {
@@ -124,8 +151,7 @@
     width: 350px;
     height: 580px;
     position: relative;
-    max-width: 1440px;
-    margin: 0 auto;
+    
 }
 
 .banner-img-1 {
@@ -196,6 +222,53 @@
     margin: 10px 0 15px 10px;
 }
 
+/* Change Your Habits styles */
+
+.habit-headline{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.habit-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+
+.habit-description{
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 50%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.habit-img-container{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.img-1-headline{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img-2-headline{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img-3-headline{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img-4-headline{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
 /* responsive media query */
 
