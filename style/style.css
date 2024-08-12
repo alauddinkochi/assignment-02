@@ -12,20 +12,20 @@
 
 /* shared styles */
 
-.habit-img{
+.habit-img {
     border-radius: 100%;
 }
 
-.habit-headline{
+.habit-headline {
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     line-height: 120%;
     text-align: center;
     margin-right: 60px;
-    
+
 }
 
-.habit-description{
+.habit-description {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: .8rem;
@@ -37,38 +37,59 @@
 
 .bg {
     background-color: black;
+    
 }
 
-.bmi-calculator-content{
+.bg-lg{
+    background: rgba(17, 17, 17, 1.00);
+}
+
+
+.bmi-calculator-content {
     color: rgba(255, 255, 255, 0.808);
     font-size: 1rem;
     font-weight: 400;
     background-color: rgba(255, 255, 255, 0.096);
     border: .1px solid black;
     border-radius: 5%;
-    opacity: 60%; 
+    opacity: 60%;
     padding: 5px 5px;
     margin-right: 8px;
     margin-bottom: 10px;
 }
 
-.team-img{
+.team-img {
     border: 1px solid black;
     border-radius: 10px;
 }
 
-.team-img-name{
+.team-img-name {
     color: rgba(255, 255, 255, 1);
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 0;
 }
 
-.team-img-post{
+.team-img-post {
     color: rgba(255, 255, 255, 0.5);
     font-size: .8rem;
     opacity: 50%;
     margin-top: 0px;
+}
+
+
+.footer-content {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    opacity: 50%;
+    line-height: 20px;
+}
+
+.footer-2nd-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
 }
 
 /* navbar styles */
@@ -183,7 +204,7 @@
     width: 350px;
     height: 580px;
     position: relative;
-    
+
 }
 
 .banner-img-1 {
@@ -254,55 +275,55 @@
 
 /* Change Your Habits styles */
 
-.habit-headline{
+.habit-headline {
     text-align: center;
     margin-top: 100px;
 }
 
-.habit-title{
+.habit-title {
     color: rgba(255, 255, 255, 1);
     font-size: 3rem;
     line-height: 120%;
     margin-bottom: 14px;
 }
 
-.habit-description{
+.habit-description {
     color: rgba(255, 255, 255, 0.5);
     opacity: 50%;
     font-size: 1rem;
     font-weight: 400;
 }
 
-.habit-img-container{
+.habit-img-container {
     display: flex;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px;
 }
 
-.img-1-headline{
+.img-1-headline {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.img-2-headline{
+.img-2-headline {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.img-3-headline{
+.img-3-headline {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.img-4-headline{
+.img-4-headline {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
 /* run extra mile styles */
 
-.run-extra-mile{
+.run-extra-mile {
     display: flex;
     margin: 100px 150px;
     gap: 200px;
@@ -311,14 +332,14 @@
 
 }
 
-.run-title{
+.run-title {
     color: rgba(255, 255, 255, 1);
     font-size: 3rem;
     line-height: 120%;
 
 }
 
-.run-description{
+.run-description {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: .8rem;
@@ -326,7 +347,7 @@
     margin-top: 15px;
 }
 
-.btn-run{
+.btn-run {
     background-color: rgba(230, 83, 60, 1);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
@@ -337,7 +358,7 @@
     margin-top: 20px;
 }
 
-.img-run{
+.img-run {
     width: 365px;
     height: 310px;
     border-radius: 18%;
@@ -346,13 +367,13 @@
 
 /* bmi calculator styles */
 
-.bmi-headline{
+.bmi-headline {
     color: rgba(255, 255, 255, 1);
     margin-left: 350px;
     margin-bottom: 15px;
 }
 
-.bmi-description{
+.bmi-description {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: .8rem;
@@ -361,20 +382,20 @@
     margin-bottom: 50px;
 }
 
-.bmi-chart{
+.bmi-chart {
     color: rgba(255, 255, 255, 1);
     margin-bottom: 40px;
 }
 
-.bmi-chart-table{
+.bmi-chart-table {
     margin: 88px 0 0 150px;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
-th{
+th {
     color: rgba(255, 255, 255, 1);
     font-size: 1rem;
     font-weight: 600;
@@ -383,7 +404,7 @@ th{
     text-align: left;
 }
 
-td{
+td {
     color: rgba(255, 255, 255, 0.5);
     font-size: .8rem;
     font-weight: 400;
@@ -392,22 +413,22 @@ td{
     opacity: 50%;
 }
 
-.bmi-chart-calculate{
+.bmi-chart-calculate {
     display: flex;
     background-color: rgba(34, 34, 34, 1);
     padding-bottom: 150px;
 }
 
-.your-bmi{
+.your-bmi {
     margin: 88px 0 0 170px;
 }
 
 
-.your-bmi-headline{
+.your-bmi-headline {
     color: rgba(255, 255, 255, 1);
 }
 
-.your-bmi-description{
+.your-bmi-description {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: .8rem;
@@ -416,34 +437,34 @@ td{
 
 
 
-.select{
+.select {
     color: rgba(255, 255, 255, 0.527);
     font-size: 1rem;
     font-weight: 400;
     background-color: rgba(255, 255, 255, 0.103);
     border: .1px solid black;
     border-radius: 5%;
-    opacity: 60%; 
+    opacity: 60%;
     padding: 5px 55px;
     margin-right: 8px;
     margin-bottom: 10px;
-    
+
 }
 
-.select-factor{
+.select-factor {
     color: rgba(255, 255, 255, 0.527);
     font-size: 1rem;
     font-weight: 400;
     background-color: rgba(255, 255, 255, 0.103);
     border: .1px solid black;
     border-radius: 5%;
-    opacity: 60%; 
+    opacity: 60%;
     padding: 5px 103px;
     margin-right: 8px;
     margin-bottom: 30px;
 }
 
-.btn-bmi{
+.btn-bmi {
     background-color: rgba(230, 83, 60, 1);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
@@ -455,13 +476,13 @@ td{
 
 /* team styles */
 
-.team-headline{
+.team-headline {
     color: rgba(255, 255, 255, 1);
     text-align: center;
     margin-top: 50px;
 }
 
-.team-description{
+.team-description {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: .8rem;
@@ -470,7 +491,7 @@ td{
     line-height: 20px;
 }
 
-.team-img-container{
+.team-img-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 10px;
@@ -480,73 +501,130 @@ td{
     border: 1px solid black;
     border-radius: 10px;
     position: relative;
-    
+
 }
 
-.team-1{
+.team-1 {
     position: absolute;
     top: 200px;
     left: 20px;
 }
 
-.team-2{
+.team-2 {
     position: absolute;
     top: 200px;
     left: 360px;
 }
 
-.team-3{
+.team-3 {
     position: absolute;
     top: 200px;
     left: 700px;
 }
 
-.team-4{
+.team-4 {
     position: absolute;
     top: 490px;
     left: 20px;
 }
 
-.team-5{
+.team-5 {
     position: absolute;
     top: 490px;
     left: 360px;
 }
 
-.team-6{
+.team-6 {
     position: absolute;
     top: 490px;
     left: 700px;
+}
+
+/* footer styles */
+
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+}
+
+.footer-1-heading {
+    font-size: 4.3rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+    margin-bottom: 10px;
+}
+
+.footer-1-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: .8rem;
+    opacity: 50%;
+    line-height: 20px;
+}
+
+.footer-1 {
+    margin: 0px 180px 10px 150px;
+}
+
+.footer-2 {
+    margin: 50px 0px 10px 0px;
+}
+
+.footer-3 {
+    margin: 50px 0 10px 50px;
+}
+
+.hr-bar {
+    color: rgba(255, 255, 255, 0.1);
+    opacity: 20%;
+    margin: 50px 150px 20px 150px;
+}
+
+.hr-bar-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    opacity: 50%;
+    text-align: center;
 }
 
 /* responsive media query */
 
 @media screen and (max-width:576px) {
-    
-    
-    .navbar{
+
+
+    .navbar {
         flex-direction: column;
     }
 
-    .nav-links{
+    .nav-links {
         flex-direction: column;
     }
 
-    .banner{
+    .banner {
         flex-direction: column;
-        
+
     }
-    .banner-img-1{
+
+    .banner-img-1 {
         margin: 0;
     }
-    .btn-primary3{
+
+    .btn-primary3 {
         right: -35px;
     }
 
-    .btn-primary4{
-       right: auto;
+    .btn-primary4 {
+        right: auto;
     }
-    .banner-content{
+
+    .banner-content {
         margin-left: 0px;
     }
 }
