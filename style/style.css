@@ -39,6 +39,19 @@
     background-color: black;
 }
 
+.bmi-calculator-content{
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.096);
+    border: .1px solid black;
+    border-radius: 5%;
+    opacity: 60%; 
+    padding: 5px 5px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
 /* navbar styles */
 
 .navbar {
@@ -158,8 +171,6 @@
     margin: 32px 0 0 300px;
     width: 350px;
     height: 580px;
-
-
 }
 
 .btn-primary3 {
@@ -328,11 +339,16 @@
     font-size: .8rem;
     opacity: 50%;
     margin-left: 350px;
+    margin-bottom: 50px;
 }
 
 .bmi-chart{
     color: rgba(255, 255, 255, 1);
     margin-bottom: 40px;
+}
+
+.bmi-chart-table{
+    margin: 88px 0 0 150px;
 }
 
 table{
@@ -357,8 +373,64 @@ td{
     opacity: 50%;
 }
 
+.bmi-chart-calculate{
+    display: flex;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.your-bmi{
+    margin: 88px 0 0 170px;
+}
+
+
+.your-bmi-headline{
+    color: rgba(255, 255, 255, 1);
+}
+
+.your-bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: .8rem;
+    opacity: 50%;
+}
+
+
+
 .select{
-    padding: 20px 20px;
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.103);
+    border: .1px solid black;
+    border-radius: 5%;
+    opacity: 60%; 
+    padding: 5px 55px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    
+}
+
+.select-factor{
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.103);
+    border: .1px solid black;
+    border-radius: 5%;
+    opacity: 60%; 
+    padding: 5px 103px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+}
+
+.btn-bmi{
+    background-color: rgba(230, 83, 60, 1);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 60px;
+    font-size: 1.12rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
 }
 
 /* responsive media query */

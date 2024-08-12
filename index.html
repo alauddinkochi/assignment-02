@@ -112,8 +112,8 @@
                 income or <br> access to a gym.</p>
         </div>
 
-        <div>
-            <div>
+        <div class="bmi-chart-calculate">
+            <div class="bmi-chart-table">
                 <h2 class="bmi-chart">BMI Calculator Chart</h2>
 
                 <table>
@@ -145,19 +145,26 @@
                 </table>
             </div>
 
-            <div>
-                <h2>Calculate your BMI</h2>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or accessto a gym. </p>
+            <div class="your-bmi">
+                <h2 class="your-bmi-headline">Calculate your BMI</h2>
+                <p class="your-bmi-description">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or accessto a gym. </p>
 
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Height/cm">
-                    <input type="text" name="" id="" placeholder="Weight/kg"> <br>
-                    <input type="text" name="" id="" placeholder="Age">
+                <form class="bmi-form" action="">
+                    <input class="bmi-calculator-content" type="text" name="" id="" placeholder="Height/cm">
+                    <input class="bmi-calculator-content" type="text" name="" id="" placeholder="Weight/kg"> <br>
+                    <input class="bmi-calculator-content" type="text" name="" id="" placeholder="Age">
                     <select class="select" name="" id="">
+                        <option value="Sex">Sex</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                         <option value="Others">Others</option>
                     </select>
+                    <br>
+                    <select class="select-factor" name="" id="">
+                        <option value="Select an activity factor">Select an activity factor</option>
+                    </select>
+                    <br>
+                    <button class="btn-bmi" type="button">Calculate</button>
             </div>
         </div>
 
