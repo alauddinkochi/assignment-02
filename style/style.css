@@ -737,6 +737,10 @@ footer {
         width: 100%;
     }
 
+    .banner-description{
+        margin-right: 10px;
+    }
+
     .banner-content-btn {
         flex-direction: column;
 
@@ -753,7 +757,7 @@ footer {
     }
 
     .btn-primary3 {
-        right: 30px;
+        right: 50px;
     }
 
     .btn-primary4 {
@@ -774,7 +778,7 @@ footer {
 
     .habit-description {
         margin-left: 20px;
-        margin-right: 0px;
+        margin-right: 5px;
 
     }
 
