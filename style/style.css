@@ -97,7 +97,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     /* max-width: 1440px; */
 }
 
@@ -547,6 +547,7 @@ td {
 footer {
     background-color: rgba(255, 255, 255, 0.1);
     padding-bottom: 20px;
+    
 }
 
 .footer {
@@ -602,11 +603,17 @@ footer {
 
     /* banner styles */
     .brand {
-        margin-left: 0;
+        margin-left: 10px;
+    }
+
+    .nav{
+        height: auto;
+        width: auto;
     }
 
     .navbar {
         flex-direction: column;
+        
     }
 
     .nav-links {
@@ -615,6 +622,7 @@ footer {
 
     .banner {
         flex-direction: column;
+        margin-left: 10px;
 
     }
 
@@ -642,16 +650,33 @@ footer {
     }
 
     .habit-description {
-        text-align: center;
-        margin-right: 0;
+        margin-left: 20px;
+        margin-right: 0px;
+        
     }
 
     .habit-img-container {
         flex-direction: column;
-        margin-left: 100px;
-        /* margin-right: 80px; */
+        margin-left: 0px;
+        
 
     }
+
+    .img-1-movement, .img-2-time, .img-3-practice, .img-4-Weight-Loss {
+        margin-left: 120px;
+    }
+
+    .img-1-headline, .img-2-headline, .img-3-headline, .img-4-headline{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 140px;
+    }
+    
+    .img-1-description, .img-2-description, .img-3-description, .img-4-description{
+        margin-left: 120px;
+        margin-right: 0;
+    }
+    
 
 
     /* run extra mile styles */
@@ -668,32 +693,25 @@ footer {
         border-radius: 18%;
     }
 
-    .bmi-headline {
-        margin-left: 0;
+    .bmi-headline, .bmi-description {
+        margin-left: 10px;
         
     }
     
-    .bmi-description {
-        
-        margin-left: 0;
-        
-    }
 
     .bmi-chart-calculate {
         flex-direction: column;
+        margin: 0;
         
     }
 
-    .bmi-chart-table {
-        margin: 0;
+    .bmi-chart-table, .your-bmi {
+        margin: 0 0 0 10px;
     }
 
-    .your-bmi {
-        margin: 0;
-    }
 
     .select-factor {
-        padding: 5px 3px;
+        padding: 5px 103px;
         /* margin-right: 8px;
         margin-bottom: 30px; */
     }
@@ -717,5 +735,62 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         margin: 0 0 0 10px;
         
+    }
+
+
+    .team-2 {
+        position: absolute;
+        top: 490px;
+        left: 20px;
+    }
+
+    .team-3 {
+        position: absolute;
+        top: 770px;
+        left: 20px;
+    }
+
+    .team-4 {
+        position: absolute;
+        top: 1070px;
+        left: 20px;
+    }
+    
+    .team-5 {
+        position: absolute;
+        top: 1340px;
+        left: 20px;
+    }
+
+    .team-6 {
+        position: absolute;
+        top: 1640px;
+        left: 20px;
+    }
+
+    /* footer styles */
+
+    
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 80px;
+    }
+    
+    .footer-1 {
+        margin: 0px 0 10px 10px;
+    }
+    
+    .footer-2 {
+        margin: 0px 0 10px 10px;
+    }
+    
+    .footer-3 {
+        margin: 0px 0 10px 10px;
+    }
+
+    .hr-bar {
+        
+        margin: 0px 10px 10px 10px;
     }
 }
