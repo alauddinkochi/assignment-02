@@ -53,9 +53,9 @@
     border: .1px solid black;
     border-radius: 5%;
     opacity: 60%;
-    padding: 5px 5px;
-    margin-right: 8px;
-    margin-bottom: 10px;
+    padding: 5px 0px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .team-img {
@@ -176,6 +176,9 @@
     margin-top: 28px;
 }
 
+.banner-content-btn{
+    display: flex;
+}
 
 .btn-primary {
     background-color: rgba(230, 83, 60, 1);
@@ -220,7 +223,7 @@
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
     top: 150px;
-    right: -350px;
+    right: -100%;
 }
 
 .primary3-1st {
@@ -437,21 +440,21 @@ td {
     opacity: 50%;
 }
 
-
-
-.select {
-    color: rgba(255, 255, 255, 0.527);
-    font-size: 1rem;
-    font-weight: 400;
-    background-color: rgba(255, 255, 255, 0.103);
-    border: .1px solid black;
-    border-radius: 5%;
-    opacity: 60%;
-    padding: 5px 55px;
-    margin-right: 8px;
-    margin-bottom: 10px;
-
+.bmi-form{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    row-gap: 10px;
 }
+
+.Height, .Age{
+    margin: 0;
+}
+
+.Weight, .Sex{
+    margin: 0;
+}
+
 
 .select-factor {
     color: rgba(255, 255, 255, 0.527);
@@ -461,9 +464,11 @@ td {
     border: .1px solid black;
     border-radius: 5%;
     opacity: 60%;
-    padding: 5px 103px;
-    margin-right: 8px;
-    margin-bottom: 30px;
+    width: 100%;
+    padding: 5px 0px 5px 0;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    
 }
 
 .btn-bmi {
@@ -497,6 +502,7 @@ td {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 10px;
+    gap: 10px;
     padding: 10px 10px;
     background-color: rgba(255, 255, 255, 0.1);
     margin: 30px 300px 0px 150px;
@@ -623,7 +629,18 @@ footer {
     .banner {
         flex-direction: column;
         margin-left: 10px;
+        width: 100%;
+    }
 
+    .banner-content-btn{
+        flex-direction: column;
+        
+    }
+
+    .btn-primary1 {
+        
+        margin-right: 15px;
+        
     }
 
     .banner-img-1 {
@@ -631,7 +648,7 @@ footer {
     }
 
     .btn-primary3 {
-        right: -35px;
+        right: 0;
     }
 
     .btn-primary4 {
@@ -639,7 +656,7 @@ footer {
     }
 
     .banner-content {
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     /* habit styles */
@@ -693,6 +710,7 @@ footer {
         border-radius: 18%;
     }
 
+
     .bmi-headline, .bmi-description {
         margin-left: 10px;
         
@@ -706,18 +724,18 @@ footer {
     }
 
     .bmi-chart-table, .your-bmi {
-        margin: 0 0 0 10px;
+        margin: 0 10px 0 10px;
     }
 
+    .bmi-calculator-content {
+       width: 100%;
+    }
 
     .select-factor {
-        padding: 5px 103px;
-        /* margin-right: 8px;
-        margin-bottom: 30px; */
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 25px;
     }
-
-
-     /* team styles */
 
     .team-headline {
         
@@ -732,9 +750,9 @@ footer {
     }
 
     .team-img-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 2fr);
         margin: 0 10px 0 10px;
-        padding: 10px 0px 10px 30px;
+        padding: 10px 10px 10px 10px;
         
     }
 
