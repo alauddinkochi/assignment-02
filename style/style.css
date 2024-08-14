@@ -339,6 +339,78 @@
     margin-bottom: 10px;
 }
 
+/* unique section styles */
+
+.unique{
+    background-color: rgba(17, 17, 17, 1.00);
+    margin: 40px 40px;
+    border-radius: 5%;
+    padding: 20px 0 20px 0;
+}
+
+.unique-offer{
+    text-align: center;
+}
+
+.unique-headline{
+    font-size: 3rem;
+    font-weight: 900;
+    color: beige;
+    margin-bottom: 10px;
+}
+
+.unique-description{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.off{
+    /* display: flex; */
+    margin: 50px 100px 20px 150px;
+    gap: 30px;
+}
+
+.off-content{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+    width: 19%;
+    height: 30%;
+    border: 2px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    transition: 3s linear, background-color 3s ease-in 2s;
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    padding: 10px 10px;
+}
+
+.off-content:hover{
+    width: 50%;
+    background-color: slategrey;
+}
+
+.offer{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: tomato;
+    text-overflow: ellipsis;
+    font-style: italic;
+}
+
+.btn-offer{
+    background-color: rgba(230, 83, 60, 1);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 60px;
+    font-size: 1.12rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+
 /* run extra mile styles */
 
 .run-extra-mile {
@@ -565,6 +637,9 @@ td {
     left: 600px;
 }
 
+
+
+
 /* footer styles */
 
 footer {
@@ -733,6 +808,24 @@ footer {
         margin-right: 0;
     }
 
+    /* unique styles */
+    .off{
+        
+        margin: 50px 10px 20px 10px;
+        gap: 10px;
+    }
+
+    .unique{
+        
+        margin: 40px 10px;
+        
+    }
+
+    .btn-offer{
+       
+        margin-left: 20%;
+        margin-top: 50px;
+    }
 
 
     /* run extra mile styles */
