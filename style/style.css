@@ -20,18 +20,7 @@
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     line-height: 120%;
-    text-align: center;
-    margin-right: 60px;
 
-}
-
-.habit-description {
-    color: rgba(255, 255, 255, 0.5);
-    font-weight: 400;
-    font-size: .8rem;
-    opacity: 50%;
-    text-align: center;
-    margin-right: 30px;
 }
 
 
@@ -99,7 +88,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-   
+
 }
 
 .brand {
@@ -146,7 +135,7 @@
     padding: 12px 20px;
 }
 
-.hamburger{
+.hamburger {
     margin-top: 1px;
     margin-right: 1px;
     position: absolute;
@@ -293,6 +282,10 @@
 
 /* Change Your Habits styles */
 
+.your-habit {
+    width: 100%;
+}
+
 .habit-headline {
     text-align: center;
     margin-top: 100px;
@@ -315,82 +308,95 @@
 .habit-img-container {
     display: flex;
     margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 50px;
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 15%;
 }
 
-.img-1-headline {
-    margin-top: 30px;
-    margin-bottom: 10px;
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+    text-align: center;
 }
 
-.img-2-headline {
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
 
-.img-3-headline {
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
 
+.img-1-headline,
+.img-2-headline,
+.img-3-headline,
 .img-4-headline {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
+
 /* unique section styles */
 
-.unique{
+.unique {
     background-color: rgba(17, 17, 17, 1.00);
     margin: 40px 40px;
     border-radius: 5%;
     padding: 20px 0 20px 0;
 }
 
-.unique-offer{
+.unique-offer {
     text-align: center;
 }
 
-.unique-headline{
+.unique-headline {
     font-size: 3rem;
     font-weight: 900;
     color: beige;
     margin-bottom: 10px;
 }
 
-.unique-description{
+.unique-description {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.off{
-    /* display: flex; */
-    margin: 50px 100px 20px 150px;
-    gap: 30px;
+.btn-trial{
+    background-color: rgba(230, 83, 60, 1);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 60px;
+    font-size: 1.12rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    margin-top: 20px;
 }
 
-.off-content{
+.off {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.off-content {
     margin-top: 30px;
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 1);
-    width: 19%;
-    height: 30%;
+    width: 17%;
+    height: 20%;
     border: 2px solid gray;
+    border-radius: 10%;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(30px);
-    transition: 3s linear, background-color 3s ease-in 2s;
+    transition: 3s linear, background-color 2s ease-in 2s;
     white-space: nowrap;
     overflow: hidden;
-    /* text-overflow: ellipsis; */
     padding: 10px 10px;
 }
 
-.off-content:hover{
+.off-content:hover {
     width: 50%;
     background-color: slategrey;
 }
 
-.offer{
+.offer {
     font-size: 2.5rem;
     font-weight: 800;
     color: tomato;
@@ -398,7 +404,10 @@
     font-style: italic;
 }
 
-.btn-offer{
+
+
+
+.btn-offer {
     background-color: rgba(230, 83, 60, 1);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
@@ -407,7 +416,7 @@
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     margin-left: 40%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -701,30 +710,28 @@ footer {
 
     /* banner styles */
 
-    
+
     .brand {
         margin-left: 10px;
     }
 
     .nav {
         display: none;
-        height: auto;
-        width: auto;
     }
 
-    .bar{
+    .bar {
         display: block;
         margin-left: 230px;
     }
 
-    .hamburger{
+    .hamburger {
         margin-top: 35px;
         right: 10px;
     }
 
     .navbar {
         flex-direction: row;
-        
+
     }
 
     .nav-links {
@@ -733,11 +740,10 @@ footer {
 
     .banner {
         flex-direction: column;
-        margin-left: 10px;
         width: 100%;
     }
 
-    .banner-description{
+    .banner-description {
         margin-right: 10px;
     }
 
@@ -771,71 +777,62 @@ footer {
 
     /* habit styles */
 
-    .habit-headline {
-        text-align: center;
-        margin-right: 0px;
-    }
-
-    .habit-description {
-        margin-left: 20px;
-        margin-right: 5px;
+    .your-habit {
+        width: 90%;
+        margin-left: 15px;
 
     }
+
 
     .habit-img-container {
         flex-direction: column;
         margin-left: 0px;
 
-
     }
 
-    .img-1-movement,
-    .img-2-time,
-    .img-3-practice,
-    .img-4-Weight-Loss {
-        margin-left: 120px;
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4 {
+        margin-left: 40%;
     }
 
-    .img-1-headline,
-    .img-2-headline,
-    .img-3-headline,
-    .img-4-headline {
-        margin-top: 30px;
-        margin-bottom: 10px;
-        margin-left: 140px;
-    }
-
-    .img-1-description,
-    .img-2-description,
-    .img-3-description,
-    .img-4-description {
-        margin-left: 120px;
-        margin-right: 0;
-    }
 
     /* unique styles */
-    .off{
-        
-        margin: 50px 10px 20px 10px;
-        gap: 10px;
+    .off {
+        flex-direction: column;
+        margin: 10px 10px 10px 10px;
+        gap: 0px;
     }
 
-    .unique{
-        
+    .unique {
+
         margin: 40px 10px;
-        
+
     }
 
-    .btn-offer{
-       
+    .btn-offer {
+
         margin-left: 15%;
         margin-top: 50px;
     }
 
-    .off-content{
+    .off-content {
+        font-size: 1rem;
+        width: 21%;
+    }
+    
+    .off-content:hover {
+        width: 90%;
         
-        width: 52%;
-        
+    }
+
+    .offer{
+        font-size: 1rem;
+    }
+
+    .btn-offer {
+        margin-top: 5px;
     }
 
     /* run extra mile styles */
